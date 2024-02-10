@@ -178,10 +178,12 @@ print("deletes entire list ==> ", list5)
 
 
 
-
-
 print("\n***\n")
 
+## range(start_val, end_val, step_size) => simple type of sequence commonly used in for loops, only contain integers in fixed pattern, build a range using range() constructor method and loop through it as it were a standard list. minimum one argument: end of range. one can add two more optional arguments, start value and step size,
+
+for n in range(4):
+    print(n)
 
 
 
