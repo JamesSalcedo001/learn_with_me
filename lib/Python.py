@@ -123,7 +123,7 @@ print("g is added to end of list because index[1000] does not exist ==> ", list3
 
 print("\n***\n")
 
-## del() removes elements from a list specified by an index or range of indices
+## del() removes elements from a list specified by an index or range of indices, destructive
 
 list4 = ["a", "b", "c", "d", "e", "f", "g"]
 del(list4[0])
@@ -142,7 +142,7 @@ print("\n***\n")
 
 
 
-## pop() removes and returns element at index passed in as argument. when used without arguments, removes and returns last element
+## pop() removes and returns element at index passed in as argument. when used without arguments, removes and returns last element, destructive
 
 
 list5 = ["a", "b", "c", "d", "e", "f", "g"]
@@ -158,15 +158,11 @@ print("\n***\n")
 
 
 
-## remove() removes element passed in as argument, one of few list methods that searches by value INSTEAD of index
+## remove() removes element passed in as argument, one of few list methods that searches by value INSTEAD of index, destructive
 
 
-
-
-
-
-
-
+list5.remove("f")
+print("using remove() to find and delete 'f' element, does not return element after removing ==> ", list5)
 
 
 
@@ -177,8 +173,8 @@ print("\n***\n")
 ## clear() erases all values of list, fast way to free up memory on device if working with large list in Python shell
 
 
-
-
+list5.clear()
+print("deletes entire list ==> ", list5)
 
 
 
