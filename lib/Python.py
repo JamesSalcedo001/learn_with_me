@@ -74,6 +74,72 @@ print("copy of list sorted ==> ", sorted_list)
 print("\n***\n")
 
 
+my_list7 = ["Bright", "Inquisitive", "Thoughtful"]
+sorted_list2 = sorted(my_list7, key=len, reverse=True)
+print("list sorted by length reversed ==> ", sorted_list2)
+
+
+
+
+print("\n***\n")
+
+
+
+
+
+list1 = [0, 1, 2, 3]
+list1[0] = None
+print("modifying list ==> ", list1)
+
+
+
+print("\n***\n")
+
+
+
+
+list2 = [0, 1, 2, 3]
+list2.append(4)
+print("appending element onto end of list ==> ", list2)
+
+
+print("\n***\n")
+
+
+## insert() ==> inserts element at any index, takes two arguments, index and value. if a value exists already at that index, new value is inserted before it and everything after is moved up by 1. if no value exists at the index, new value is added to the end of list
+
+
+list3 = ["a", "b", "c", "d", "f"]
+list3.insert(4, "e")
+print("adding in 'e' at index[4] shifts f to index[5] ==> ", list3)
+
+
+print("\n***\n")
+
+
+list3.insert(1000, "g")
+print("g is added to end of list because index[1000] does not exist ==> ", list3)
+
+
+
+
+
+
+
+
+
+
+
+
+print("\n***\n")
+
+
+
+
+
+
+
+print("\n***\n")
 
 
 
@@ -100,9 +166,23 @@ print("\n***\n")
 
 
 
+print("\n***\n")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+print("\n***\n")
 
 
 
