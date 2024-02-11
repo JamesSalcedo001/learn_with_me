@@ -59,6 +59,14 @@ function Home() {
 
             <br/>
 
+            <h1>React.createElement takes three arguments:</h1>
+            <br/>
+
+            <ul>
+                <li>Tag name of element</li>
+                <li>An object containing props and attributes</li>
+                <li>The children of the element, and if there are multiple children, additional arguments are passed</li>
+            </ul>
 
         </div>
     )
