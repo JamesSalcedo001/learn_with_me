@@ -298,7 +298,7 @@ print("\n***\n")
 
 
 
-## String Methods
+## String Methods: all return new object, nondestructive
 
 
 
@@ -325,8 +325,25 @@ print("\n***\n")
 
 # 2: upper() returns an uppercase version of the original string, lower() returns a lowercase version, and title() returns the original string with the first letter of each word capitalized
 
-string_2 = "Hello World!"
+string_2 = "Hello world!"
 
-string_2.upper()
+print(string_2.upper())
+print("\n***\n")
+
+print(string_2.lower())
+print("\n***\n")
+
+print(string_2.title())
+print("\n***\n")
+
+
+
+
+
+
+
+
+
+
 
 print("\n***\n")
