@@ -323,7 +323,10 @@ print("\n***\n")
 
 
 
-# 2: case formatting upper/lower/title 
+# 2: upper() returns an uppercase version of the original string, lower() returns a lowercase version, and title() returns the original string with the first letter of each word capitalized
 
+string_2 = "Hello World!"
 
+string_2.upper()
 
+print("\n***\n")
