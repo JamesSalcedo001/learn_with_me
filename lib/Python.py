@@ -183,45 +183,22 @@ print("\n***\n")
 ## range(start_val, end_val, step_size) => simple type of sequence commonly used in for loops, only contain integers in fixed pattern, build a range using range() constructor method and loop through it as it were a standard list. minimum one argument: end of range. one can add two more optional arguments, start value and step size,
 
 for n in range(4):
-    print(n)
+    print("printing range(4) ==> ", n)
 
+print("\n***\n")
 
+for n in range(1, 4):
+    print("printing range(1, 4) ==> ", n)
 
+print("\n***\n")
 
+for n in range(0, 4, 2):
+    print("printing range(0, 4, 2) ==> ", n)
 
 print("\n***\n")
 
 
-
-
-
-
-print("\n***\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print("\n***\n")
-
-
-
-print("\n***\n")
-
-
-
-
-
+## each iteration is printed out
 
 
 
@@ -252,6 +229,10 @@ print("\n***\n")
 
 
 
+print("\n***\n")
+
+
+
 
 
 
@@ -265,3 +246,84 @@ print("\n***\n")
 
 
 print("\n***\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("\n***\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("\n***\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## String Methods
+
+
+
+
+# 1: for..in loop / indexing strings, they are iterable and are indexed
+
+
+string_1 = "Hello World!"
+for char in string_1:
+    print("showing each iteration of the string ==> ", char)
+
+print("\n***\n")
+
+
+print("accessing index of 'Hello World!' => ", string_1[0])
+print("accessing index of 'Hello World!' => ", string_1[1])
+print("accessing index of 'Hello World!' => ", string_1[3])
+
+
+
+print("\n***\n")
+
+
+
+# 2: case formatting upper/lower/title 
+
+
+
